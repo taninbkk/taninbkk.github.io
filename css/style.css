@@ -26,104 +26,6 @@
 
 }
 
- @font-face {
-    font-family: 'calibriregular';
-    src: url('../fonts/Calibri/calibri-webfont.eot');
-    src: url('../fonts/Calibricalibri-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Calibricalibri-webfont.woff2') format('woff2'),
-         url('../fonts/Calibricalibri-webfont.woff') format('woff'),
-         url('../fonts/Calibricalibri-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'sinkin_sans500_medium';
-    src: url('../fonts/sinkinsans/sinkinsans-500medium-webfont.eot');
-    src: url('../fonts/sinkinsans/sinkinsans-500medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans/sinkinsans-500medium-webfont.woff2') format('woff2'),
-         url('../fonts/sinkinsans/sinkinsans-500medium-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans/sinkinsans-500medium-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'sinkin_sans500_medium_italic';
-    src: url('../fonts/sinkinsans/sinkinsans-500mediumitalic-webfont.eot');
-    src: url('../fonts/sinkinsans/sinkinsans-500mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans/sinkinsans-500mediumitalic-webfont.woff2') format('woff2'),
-         url('../fonts/sinkinsans/sinkinsans-500mediumitalic-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans/sinkinsans-500mediumitalic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'sinkin_sans300_light';
-    src: url('../fonts/sinkinsans/sinkinsans-300light-webfont.eot');
-    src: url('../fonts/sinkinsans/sinkinsans-300light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans/sinkinsans-300light-webfont.woff2') format('woff2'),
-         url('../fonts/sinkinsans/sinkinsans-300light-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans/sinkinsans-300light-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'sinkin_sans300_light_italic';
-    src: url('../fonts/sinkinsans/sinkinsans-300lightitalic-webfont.eot');
-    src: url('../fonts/sinkinsans/sinkinsans-300lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans/sinkinsans-300lightitalic-webfont.woff2') format('woff2'),
-         url('../fonts/sinkinsans/sinkinsans-300lightitalic-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans/sinkinsans-300lightitalic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'sinkin_sans400_regular';
-    src: url('../fonts/sinkinsans/sinkinsans-400regular-webfont.eot');
-    src: url('../fonts/sinkinsans/sinkinsans-400regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans/sinkinsans-400regular-webfont.woff2') format('woff2'),
-         url('../fonts/sinkinsans/sinkinsans-400regular-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans/sinkinsans-400regular-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'sinkin_sans400_italic';
-    src: url('../fonts/sinkinsans/sinkinsans-400italic-webfont.eot');
-    src: url('../fonts/sinkinsans/sinkinsans-400italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/sinkinsans/sinkinsans-400italic-webfont.woff2') format('woff2'),
-         url('../fonts/sinkinsans/sinkinsans-400italic-webfont.woff') format('woff'),
-         url('../fonts/sinkinsans/sinkinsans-400italic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body {
     overflow-x: hidden;
@@ -173,7 +75,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'latoregular',Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
 }
 
@@ -192,7 +94,7 @@ h6 {
 .btn-primary {
     border-color: #0181d5;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular','latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
     background-color: #0181d5;
@@ -243,7 +145,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #0181d5;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
@@ -392,7 +294,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/header-bg.jpg);
-    background-position: center center;
+    background-position: top center;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -407,16 +309,15 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
@@ -430,19 +331,23 @@ header .intro-text .intro-heading {
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
+		text-shadow: 0px 1px 3px rgba(0,0,0,0.8), 0px 0px 1px #fff;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
-        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 75px;
+        font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
         font-weight: 700;
         line-height: 75px;
+		text-shadow: 0px 1px 3px rgba(0,0,0,0.8), 0px 0px 1px #fff;
+		-webkit-transition: all .3s;
+		-moz-transition: all .3s;
+		transition: all .3s;		
     }
 }
 
@@ -779,7 +684,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/contact-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -812,28 +717,28 @@ section#contact .form-control:focus {
 
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact::-moz-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
 section#contact:-ms-input-placeholder {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
@@ -850,7 +755,7 @@ footer {
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 
@@ -858,7 +763,7 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
     line-height: 40px;
 }
 

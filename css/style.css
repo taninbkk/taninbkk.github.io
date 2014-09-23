@@ -322,7 +322,9 @@ header .intro-text .intro-heading {
     font-weight: 700;
     line-height: 50px;
 }
-
+header .intro-text .intro-heading a:hover {
+	text-decoration: none;
+}
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;

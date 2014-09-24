@@ -284,14 +284,11 @@ $('body').toggleClass('loaded');
                     </ul>
                 </div>
                 <div class="col-md-4">
-					<?php
-
-					$hit_count = @file_get_contents('count.txt'); // read the hit count from file
-					echo $hit_count; //  display the hit count
-					$hit_count++; // increment the hit count by 1
-					@file_put_contents('count.txt', $hit_count); // store the new hit count
-
-					?>
+					<!-- Histats.com  START (html only)-->
+					<a href="http://www.histats.com" alt="page hit counter" target="_blank" >
+					<embed src="http://s10.histats.com/605.swf"  flashvars="jver=1&acsid=2793087&domi=4"  quality="high"  width="110" height="55" name="605.swf"  align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" wmode="transparent" /></a>
+					<img  src="http://sstatic1.histats.com/0.gif?2793087&101" alt="web tracker" border="0">
+					<!-- Histats.com  END  -->
                 </div>
             </div>
         </div>

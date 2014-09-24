@@ -271,7 +271,7 @@ $('body').toggleClass('loaded');
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; BKK THEMES 2014</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
@@ -284,12 +284,14 @@ $('body').toggleClass('loaded');
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                    </ul>
+					<?php
+
+					$hit_count = @file_get_contents('count.txt'); // read the hit count from file
+					echo $hit_count; //  display the hit count
+					$hit_count++; // increment the hit count by 1
+					@file_put_contents('count.txt', $hit_count); // store the new hit count
+
+					?>
                 </div>
             </div>
         </div>

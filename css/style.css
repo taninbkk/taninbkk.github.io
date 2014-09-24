@@ -155,9 +155,8 @@ fieldset[disabled] .btn-primary.active {
     border-color: #0181d5;
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: 'latoregular',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'latosemibold',"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
-    font-weight: 700;
     color: #fff;
     background-color: #0181d5;
 }
